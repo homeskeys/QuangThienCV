@@ -1,3 +1,9 @@
+/* body {
+    background-image: url("img/backgroud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+} */
+
 h1
 {
     
@@ -37,6 +43,7 @@ h1
     {
         border:0.1rem solid #e6eaec;
         padding-left: 6rem;
+        padding-right: 6rem;
     }
 }
 i
@@ -113,4 +120,33 @@ ul
     {
         font-size: 1.2rem;
     }
+}
+@media screen and (min-width: 768px)
+{
+    span::after
+{
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 10rem;
+    left: 14.5rem;
+    top: 65rem;
+    background: linear-gradient(120deg,#3498db,#9b59b6);
+    transition: .5s;
+   
+}
+span::before
+{
+    content: attr(data-placeolder);
+    position: absolute;
+    top: 65rem;
+    left: 8rem;
+    width: 15rem;
+    color: #d2c420;
+    font-size: 20px;
+    font-weight: bolder;
+    transform: rotate(270deg);
+    z-index: 1;
+}
+
 }
