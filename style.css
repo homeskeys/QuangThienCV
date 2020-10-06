@@ -52,6 +52,15 @@ h3 {
     font-size: 1.75rem;
     margin-bottom: .5rem;
 }
+h2
+{
+    font-size: 2rem;
+    color: #0000ffad;
+}
+.content
+{
+    padding-left: 1rem;
+}
 
 .timeline-title::before {
     /* content: '';
@@ -84,7 +93,7 @@ h3 {
     white-space: nowrap;
     color: #9a9696;
     position: absolute;
-    margin-left: 10.3rem;
+    margin-left: 15rem;
     margin-top: -2.2rem;
 }
 
@@ -129,7 +138,7 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-    span::after {
+    /* span::after {
         content: '';
         position: absolute;
         width: 2rem;
@@ -152,6 +161,6 @@ ul {
         font-weight: bolder;
         transform: rotate(270deg);
         z-index: 1;
-    }
+    } */
 
 }
